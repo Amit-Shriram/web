@@ -2,7 +2,7 @@ name: Run run Try.py Every 5 Minutes
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes
+    - cron: '*/30 * * * *'  # Run every 5 minutes
 
 jobs:
   run-script:
