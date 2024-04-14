@@ -147,7 +147,7 @@ list_img = []
 # list_domain = []
 
 def postdata():
-    url = 'https://flaskkex.pythonanywhere.com/testingpostnews'
+    url = 'https://flaskkex.pythonanywhere.com/testing/postnews'
     headers = {'Content-Type': 'application/json', 'Accept':'application/json'}
     data = {"links": list_link, "headlines": list_headline, "description":list_newsdes, "images":list_img}
     response = requests.post(url, json=json.dumps(data), headers=headers)
